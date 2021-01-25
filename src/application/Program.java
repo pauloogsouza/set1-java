@@ -14,7 +14,7 @@ public class Program {
         Scanner sc = new Scanner(System.in);
 
         //Using TreeSet - needs to implement Comparable<T>
-        Set<UserLog> set = new TreeSet<>();
+        Set<UserLog> set = new HashSet<>();
 
         System.out.print("Enter file full path: ");
         String path = sc.nextLine();
